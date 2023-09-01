@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        int[] randomArray = generateRandomIntegerList(10, 10);
+        int[] randomArray = generateRandomIntegerList(10, 100);
         showArray(randomArray);
         bubbleSort(randomArray, false);
         showArray(randomArray);
